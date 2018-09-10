@@ -9,22 +9,22 @@ namespace FridgeStorageProcessor
 
         // TODO добавить реализацию методов - чтение из файла xml
 
-        public void Read()
+        public void ReadProducts()
         {
             throw new NotImplementedException();
         }
 
-        public void Insert()
+        public void InsertProduct()
         {
             throw new NotImplementedException();
         }
 
-        public void Update()
+        public void UpdateProduct()
         {
             throw new NotImplementedException();
         }
 
-        public void Delete()
+        public void DeleteProduct()
         {
             throw new NotImplementedException();
         }

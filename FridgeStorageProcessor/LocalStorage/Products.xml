@@ -1,0 +1,44 @@
+<products>
+	<product>
+		<id>1</id>
+		<name>Помидор</name>
+		<type>Овощи</type>
+		<units>
+			<unit>
+				<id>11</id>
+				<purchaseDate>12.08.2018</purchaseDate>
+				<expirationDate>22.08.2018</expirationDate>
+				<count>5</count>
+			</unit>
+		</units>	
+		<expirationDaysCount>10</expirationDaysCount>
+	</product>
+	<product>
+		<id>2</id>
+		<name>Огурцы</name>
+		<type>Овощи</type>
+		<units>
+			<unit>
+				<id>21</id>
+				<purchaseDate>12.08.2018</purchaseDate>
+				<expirationDate>22.08.2018</expirationDate>
+				<count>7</count>
+			</unit>
+		</units>	
+		<expirationDaysCount>10</expirationDaysCount>
+	</product>
+	<product>
+		<id>3</id>
+		<name>Филе курицы</name>
+		<type>Мясо</type>
+		<units>
+			<unit>
+				<id>31</id>
+				<purchaseDate>12.08.2018</purchaseDate>
+				<expirationDate>16.08.2018</expirationDate>
+				<count>1</count>
+			</unit>
+		</units>	
+		<expirationDaysCount>4</expirationDaysCount>
+	</product>
+</products>

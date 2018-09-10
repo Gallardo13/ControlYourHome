@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeStorageProcessor", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeWebApplication", "FridgeWebApplication\FridgeWebApplication.csproj", "{63364375-89DF-4E13-AB9D-DE6619B34E1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C454603D-E77E-4395-87C4-1BAF20B3E5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeLocalStorageProcessor.Tests", "FridgeLocalStorageProcessor.Tests\FridgeLocalStorageProcessor.Tests.csproj", "{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +35,15 @@ Global
 		{63364375-89DF-4E13-AB9D-DE6619B34E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63364375-89DF-4E13-AB9D-DE6619B34E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63364375-89DF-4E13-AB9D-DE6619B34E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1B2A318E-F85D-424B-8C23-6A82102907A6} = {C311F77F-FB28-446A-99A9-0F524A604D57}
 		{3D237350-713F-4B60-8C40-21C7F9862B4C} = {C93D4887-B67A-4A2D-B536-D7E4E0023170}
 		{63364375-89DF-4E13-AB9D-DE6619B34E1B} = {91333698-CF11-4BD1-B250-6E1B86D6230E}
+		{910944B7-CE35-4F81-A9D3-0EFD1BBE9E62} = {C454603D-E77E-4395-87C4-1BAF20B3E5B5}
 	EndGlobalSection
 EndGlobal
