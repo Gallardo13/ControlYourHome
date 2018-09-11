@@ -3,12 +3,12 @@ namespace FridgeStorageProcessor
 {
     public interface IStorageProcessor
     {
-        void Read();
+        void ReadProducts();
 
-        void Insert();
+        void InsertProduct();
 
-        void Update();
+        void UpdateProduct();
 
-        void Delete();
+        void DeleteProduct();
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FridgeStorageProcessor
 {
-    public class FileSystemStorageProcessor : IStorageProcessor
+    public class LocalStorageProcessor : IStorageProcessor
     {
-		public FileSystemStorageProcessor()
+		public LocalStorageProcessor()
         {
         }
 
